@@ -12,3 +12,16 @@
 - [课程视频](https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J)
 - 课程作业：一些随堂小练习，具体见课程网站。
 
+## 刷课进度
+
+- [x]  Course overview + the shell
+- [ ] Shell Tools and Scripting
+- [ ] Editors (Vim)
+- [ ] Data Wrangling
+- [ ] Command-line Environment
+- [ ]  Version Control (Git)
+- [ ] Debugging and Profiling
+- [ ] Metaprogramming (build systems, dependency management, testing, CI)
+- [ ]  Security and Cryptography
+- [ ] Potpourri
+- [ ] Q&A
