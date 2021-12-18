@@ -16,3 +16,7 @@
 - 课程视频：B 站 [BV1Tp4y197XX](https://www.bilibili.com/video/BV1Tp4y197XX)
 - 课程作业：见课程网站
 
+## 课程进度
+
+- [x] Reading 1
+- [ ] Reading 2
