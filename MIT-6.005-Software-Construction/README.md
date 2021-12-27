@@ -10,6 +10,8 @@
 
 这门课的材料包括阅读文本和视频，两者的内容相同。复习时只看阅读文本即可，不用再看视频了。
 
+这门课是 MIT 6.031: Software Construction 课程的前身。
+
 ## 课程资源
 
 - [课程网站](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-005-software-construction-spring-2016/index.htm)
