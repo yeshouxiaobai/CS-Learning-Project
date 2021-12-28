@@ -15,7 +15,7 @@
 ## 刷课进度
 
 - [x]  Course overview + the shell
-- [ ] Shell Tools and Scripting
+- [x] Shell Tools and Scripting
 - [ ] Editors (Vim)
 - [ ] Data Wrangling
 - [ ] Command-line Environment
