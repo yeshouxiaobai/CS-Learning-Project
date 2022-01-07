@@ -1,4 +1,4 @@
-# cs-self-learning-project
+# CS-Learning-Project
 
 这是 Envirian 的 CS 自学仓库。
 
