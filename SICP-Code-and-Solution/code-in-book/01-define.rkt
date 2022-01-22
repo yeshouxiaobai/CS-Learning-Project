@@ -16,10 +16,11 @@ size
 circumference
 
 
-
 (define (square x) (* x x))
+(define another-square (lambda (x) (* x x)))
 
 (square 21)
+(another-square 21)
 
 (square (+ 2 5))
 
