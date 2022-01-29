@@ -13,6 +13,8 @@ m = curry2(add)
 add_three = m(3)
 add_three(2)
 add_three(2010)
+
+
 def curry2(f): return lambda x: lambda y: f(x, y)
 
 

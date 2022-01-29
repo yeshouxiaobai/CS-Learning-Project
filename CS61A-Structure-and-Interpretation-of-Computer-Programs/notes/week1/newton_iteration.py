@@ -14,8 +14,8 @@ def sqrt(a):
     def near_zero(x): return asb(x) < 1e-9
     def good_enough(guess, new_guess):
         return near_zero((guess-new_guess)/guess)
-    
-    update = get_newton_update(f, df)    
+
+    update = get_newton_update(f, df)
     return improve(update, good_enough, 1.0)
 
 
