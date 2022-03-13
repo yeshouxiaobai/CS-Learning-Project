@@ -5,7 +5,7 @@ def fib(n):
         return 1
     else:
         return fib(n-1) + fib(n-2)
-    
+
 def paths(m, n):
     """Return the number of paths from one corner of an
     M by N grid to the opposite corner.
@@ -58,7 +58,7 @@ def all_nums(k):
         h(k-1, prefix*10)
         h(k-1, prefix*10+1)
     h(k, 0)
-    
+
 def remove(n, digit):
     """Return all digits of non-negative N that are not DIGIT,
     for some non-negative DIGIT less than 10.

@@ -14,7 +14,7 @@ def luhn_sum(n):
     else:
         all_but_last, last = split(n)
         return luhn_sum_double(all_but_last) + last
-    
+
 def luhn_sum_double(n):
     all_but_last, last = split(n)
     luhn_digit = sum_digits(2 * last)
