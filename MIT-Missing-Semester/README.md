@@ -14,14 +14,14 @@
 
 ## 刷课进度
 
-- [x]  Course overview + the shell
+- [x] Course overview + the shell
 - [x] Shell Tools and Scripting
 - [ ] Editors (Vim)
 - [ ] Data Wrangling
 - [ ] Command-line Environment
-- [ ]  Version Control (Git)
+- [ ] Version Control (Git)
 - [ ] Debugging and Profiling
 - [ ] Metaprogramming (build systems, dependency management, testing, CI)
-- [ ]  Security and Cryptography
+- [ ] Security and Cryptography
 - [ ] Potpourri
 - [ ] Q&A
