@@ -1,4 +1,4 @@
-# MIT Missing Semester Demo 1
+# Course overview + the shell
 
 第一课是关于 Shell 的。这节课介绍了 Shell 的基本操作。
 
@@ -83,4 +83,3 @@ exit
 # or in this way
 echo 1060 | sudo tee brightness
 ```
-

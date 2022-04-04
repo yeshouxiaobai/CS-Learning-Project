@@ -1,4 +1,4 @@
-# MIT Missing Semester Demo 2
+# Shell Tools and Scripting
 
 这节课见识了好多好多搜索相关的工具。
 
@@ -10,8 +10,6 @@ echo "Value is $foo"
 echo 'Value is $foo'
 ```
 
-
-
 **mcd.sh**
 
 ```bash
@@ -20,8 +18,6 @@ mcd () {
     cd "$1"
 }
 ```
-
-
 
 ```bash
 source mcd.sh
@@ -50,29 +46,25 @@ echo "we are in $(pwd)"
 cat <(ls) <(ls ..)
 ```
 
-
-
 **example.sh**
 
- ```bash
- #!/bin/bash
- 
- echo "Starting program at $(date)"
- 
- echo "Running program $0 with $# arguments with pid $$"
- 
- for file in "$@"; do
-     grep foobar "$file" > /dev/null 2> /dev/null
-     # When pattern is not found, grep has exit status
-     # We redirect STDOUT and STDERR to a null register because we do not care about them
-     if [[ "$?" -ne 0 ]]; then
-         echo "File $file does not have any foobar, adding one"
-         echo "# foobar" >> "$file"
-     fi
- done
- ```
+```bash
+#!/bin/bash
 
+echo "Starting program at $(date)"
 
+echo "Running program $0 with $# arguments with pid $$"
+
+for file in "$@"; do
+    grep foobar "$file" > /dev/null 2> /dev/null
+    # When pattern is not found, grep has exit status
+    # We redirect STDOUT and STDERR to a null register because we do not care about them
+    if [[ "$?" -ne 0 ]]; then
+        echo "File $file does not have any foobar, adding one"
+        echo "# foobar" >> "$file"
+    fi
+done
+```
 
 ```bash
 ls *.sh
@@ -89,8 +81,6 @@ touch foo/x bar/y
 diff <(ls foo) <(ls bar)
 ```
 
-
-
 **script.py**
 
 ```python
@@ -99,8 +89,6 @@ import sys
 for arg in reversed(sys.argv[1:]):
     print(arg)
 ```
-
-
 
 **关于搜索**
 
@@ -124,5 +112,4 @@ broot
 # about history
 history 1 | grep convert
 # or Ctrl+R and search and Ctrl+R to explore
-
 ```
